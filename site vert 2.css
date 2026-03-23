@@ -1,0 +1,50 @@
+/* Fond de la page */
+body {
+    background-color: green;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Titres */
+h1 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+/* Liste */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Liens en mode bouton */
+a {
+    display: inline-block;
+    background-color: white;
+    color: green;
+    padding: 12px 25px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+
+    /* Animation */
+    transition: all 0.3s ease;
+}
+
+/* Effet au survol */
+a:hover {
+    background-color: darkgreen;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Effet au clic */
+a:active {
+    transform: scale(0.95);
+}
